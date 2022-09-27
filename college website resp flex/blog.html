@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Export Bootstrap -->
+<!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+<!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  -->
+    
+<!-- Export font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+<!-- Export css -->
+<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Stanford University</title>
+
+</head>
+
+<body>
+
+<!-- Header -->
+<section class="sub-header">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navlinks">
+<i class="fa fa-times" onclick="hidemenu()" ></i>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="course.html">Course</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>Our <br> Certificates and Online <br> Programs</h1>
+</section>
+
+<!-- blog page content -->
+<section class="blog">
+<div class="row">
+<div class="blog-left">
+<img src="images/certificate.jpg" alt="">
+<h2>Our Certificates and Online Programs</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+<div class="comment-box">
+
+<h3>Leave a Comment</h3>
+<form class="comment-form">
+<input type="text" placeholder="Enter Name">
+<input type="email" placeholder="Enter E-mail">
+<textarea name="" id="" cols="30" rows="5" placeholder="Your Comment"></textarea>
+<button type="submit" class="hero-btn red-btn">Post Comment</button>
+
+</form>
+</div>
+
+</div>
+
+<div class="blog-right">
+<h3>Post Categories</h3>
+<div >
+<span>Bussiness Analytics</span>
+<span>21</span>
+</div>
+
+<div >
+    <span>Data Science</span>
+    <span>25</span>
+    </div>
+
+    <div >
+        <span>Machine Learning</span>
+        <span>43</span>
+        </div>
+
+        <div >
+            <span>Computer Science</span>
+            <span>45</span>
+            </div>
+            <div >
+                <span>Auto CAD</span>
+                <span>33</span>
+                </div>
+                <div >
+                    <span>Journalism</span>
+                    <span>25</span>
+                    </div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+
+<p>Made by<i class="fa fa-heart-o">by Nishant Atras</i></p>
+</section>
+
+
+<!-- Menu nav for screen max wid 700px -->
+<script>
+    var navlinks= document.getElementById("navlinks");
+
+    function showmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px";
+    }
+    
+    </script>
+</body>
+</html >
